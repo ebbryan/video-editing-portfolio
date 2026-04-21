@@ -19,9 +19,9 @@ export default function ParticlesBackground({
   dotColor = "#ffff",
   lineColor = "#ffff",
   backgroundColor = "transparent",
-  particleCount = 90,
-  speed = 1.5,
-  linkDistance = 3,
+  particleCount = 70,
+  speed = 1.2,
+  linkDistance = 1,
   hoverDistance = 190,
 }: ParticlesBackgroundProps) {
   const [init, setInit] = useState(false);
