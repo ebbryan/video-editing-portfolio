@@ -57,7 +57,7 @@ export default function ParticlesBackground({
             mode: "connect",
           },
           onClick: {
-            enable: true,
+            enable: false,
             mode: "push",
           },
           resize: {
@@ -85,8 +85,8 @@ export default function ParticlesBackground({
           color: lineColor,
           distance: linkDistance,
           enable: true,
-          opacity: 0.5,
-          width: 0.1,
+          opacity: 0.2,
+          width: 0.12,
           triangles: {
             enable: false,
           },
@@ -113,7 +113,7 @@ export default function ParticlesBackground({
           value: particleCount,
         },
         opacity: {
-          value: { min: 0.3, max: 0.8 },
+          value: { min: 0.2, max: 0.4 },
           animation: {
             enable: true,
             speed: 0.5,
